@@ -475,6 +475,29 @@
 }
 
 @media (max-width: 767.98px) {
+    #cards-section .style-box .text p {
+        font-size: 15px;
+    }
+
+    #cards-section .style-box .text h4 {
+        font-size: 19px;
+    }
+
+    #cards-section .style-box {
+        padding: 17px;
+
+    }
+
+    #cards-section .We-offer {
+        font-size: 14px;
+
+    }
+
+    #cards-section {
+        padding: 30px 0px 30px 0px;
+    }
+
+
     #banner-section .left-side-style .img-box img {
         width: 100%;
     }
@@ -1078,12 +1101,41 @@
     .b-section-two h3 {
         font-size: 20px;
     }
+
     .b-section-two p {
         font-size: 16px;
         text-align: justify;
     }
+
     .b-section-two {
         padding: 20px 0px 20px 0px;
+    }
+
+    #banner-services {
+        min-height: 200px;
+    }
+
+    #banner-services .text h3 {
+        font-size: 25px;
+    }
+
+    #cards-section {
+        padding: 20px 0px 20px 0px;
+    }
+
+    .heading-style {
+        font-size: 20px;
+    }
+
+    #cards-section .We-offer {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    #cards-section .style-box {
+
+        margin-top: 20px;
+
     }
 }
 
