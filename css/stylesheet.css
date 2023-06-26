@@ -1613,18 +1613,21 @@ footer .set-the-padding {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.b-section-two h3{
+
+.b-section-two h3 {
     color: var(--white-color);
     font-size: 30px;
     font-family: 600;
 }
-.b-section-two  p{
+
+.b-section-two p {
     color: var(--white-color);
     font-size: 17px;
     padding-top: 5px;
     line-height: 26px;
 }
-.b-section-two button{
+
+.b-section-two button {
     margin-top: 10px;
     width: max-content;
     padding: 10px 20px;
@@ -1638,3 +1641,104 @@ footer .set-the-padding {
 
 /***** End banner-two-section *****/
 /* commercial .Electrical-riverside page css close */
+
+
+/***** electrical services pages css *****/
+/***** banner-services *****/
+#banner-services {
+    min-height: 600px;
+    background-image: url("../images/b-s.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+
+}
+
+#banner-services .text h3 {
+    text-align: center;
+    color: var(--white-color);
+    font-size: 35px;
+    font-weight: 600;
+
+}
+
+/***** End banner-services *****/
+
+/***** Start serrvies cards *****/
+#cards-section {
+    padding: 50px 0px 50px 0px;
+    background: #F8F8F8;
+}
+
+#cards-section .We-offer {
+    font-size: 17px;
+    color: var(--p-color);
+    text-align: center;
+    line-height: 27px;
+
+}
+
+#cards-section .style-box {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 40px;
+    transition: 0.3s;
+    overflow: hidden;
+    position: relative;
+}
+
+#cards-section .style-box::after {
+    height: 6px;
+    left: 0%;
+    width: 0%;
+    transition: 0.2s;
+    position: absolute;
+    content: '';
+    background-color: var(--section--bg-2);
+    bottom: 0%;
+    left: 50%;
+}
+
+#cards-section .style-box:hover::after {
+    width: 100%;
+    left: 0%;
+}
+
+#cards-section .style-box .icon img {
+    background-color: var(--section--bg-2);
+    padding: 15px;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+
+#cards-section .style-box .text {
+    margin-top: 25px;
+}
+
+#cards-section .style-box .text h4 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#cards-section .style-box .text p {
+    color: var(--p-color);
+    font-size: 17px;
+    line-height: 27px;
+}
+
+#cards-section .style-box .text button {
+    padding: 10px 20px;
+    width: max-content;
+    color: var(--white-color);
+    border: none;
+    background-color: var(--section--bg-2);
+    margin-top: 10px;
+}
+
+/***** End Start serrvies cards *****/
+
+/***** End electrical services pages css *****/
